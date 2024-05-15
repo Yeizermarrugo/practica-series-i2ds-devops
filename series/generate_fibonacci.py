@@ -9,7 +9,7 @@ def generate_fibonacci(max_value):
         fibonacci_series.append(next_value)
     return fibonacci_series
 
-fibonacci_series = generate_fibonacci(233)
+fibonacci_series = generate_fibonacci(10946)
 
 output_dir = './'
 output_file = os.path.join(output_dir, 'fibonacci.txt')
